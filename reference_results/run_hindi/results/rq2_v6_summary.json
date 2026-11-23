@@ -1,0 +1,249 @@
+{
+ "bow_ok_share": {
+  "bloom-560m": 0.9888,
+  "gpt2-hindi": 0.9341,
+  "mGPT": 0.9676,
+  "sarvam-1": 0.9895,
+  "xglm-564M": 0.9721
+ },
+ "key_metrics_gold": [
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.0019,
+   "ci_lo": -0.0074,
+   "ci_hi": 0.0109,
+   "d_z": 0.0125,
+   "p_holm": 1.0
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0175,
+   "ci_lo": 0.0103,
+   "ci_hi": 0.0248,
+   "d_z": 0.1451,
+   "p_holm": 0.0004
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0032,
+   "ci_lo": 0.0002,
+   "ci_hi": 0.0062,
+   "d_z": 0.0646,
+   "p_holm": 0.5041
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.0038,
+   "ci_lo": 0.0006,
+   "ci_hi": 0.007,
+   "d_z": 0.0713,
+   "p_holm": 0.5041
+  },
+  {
+   "scorer": "gpt2-hindi",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.197,
+   "ci_lo": 0.183,
+   "ci_hi": 0.2118,
+   "d_z": 0.8472,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "gpt2-hindi",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0407,
+   "ci_lo": 0.0327,
+   "ci_hi": 0.0485,
+   "d_z": 0.3141,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "gpt2-hindi",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0199,
+   "ci_lo": 0.0162,
+   "ci_hi": 0.0237,
+   "d_z": 0.3262,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "gpt2-hindi",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.004,
+   "ci_lo": -0.0001,
+   "ci_hi": 0.008,
+   "d_z": 0.0598,
+   "p_holm": 1.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.126,
+   "ci_lo": 0.1139,
+   "ci_hi": 0.1387,
+   "d_z": 0.6302,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0347,
+   "ci_lo": 0.0268,
+   "ci_hi": 0.0428,
+   "d_z": 0.2727,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0125,
+   "ci_lo": 0.0088,
+   "ci_hi": 0.0161,
+   "d_z": 0.2146,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": -0.0056,
+   "ci_lo": -0.0095,
+   "ci_hi": -0.0016,
+   "d_z": -0.089,
+   "p_holm": 0.008
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.0208,
+   "ci_lo": 0.0116,
+   "ci_hi": 0.0301,
+   "d_z": 0.137,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0259,
+   "ci_lo": 0.0191,
+   "ci_hi": 0.0328,
+   "d_z": 0.2361,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0084,
+   "ci_lo": 0.0051,
+   "ci_hi": 0.0117,
+   "d_z": 0.1578,
+   "p_holm": 0.0026
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.006,
+   "ci_lo": 0.0025,
+   "ci_hi": 0.0095,
+   "d_z": 0.1062,
+   "p_holm": 0.0585
+  },
+  {
+   "scorer": "xglm-564M",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.0046,
+   "ci_lo": -0.005,
+   "ci_hi": 0.0144,
+   "d_z": 0.0302,
+   "p_holm": 1.0
+  },
+  {
+   "scorer": "xglm-564M",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0275,
+   "ci_lo": 0.02,
+   "ci_hi": 0.0349,
+   "d_z": 0.2255,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "xglm-564M",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0056,
+   "ci_lo": 0.0022,
+   "ci_hi": 0.009,
+   "d_z": 0.1036,
+   "p_holm": 0.0266
+  },
+  {
+   "scorer": "xglm-564M",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.004,
+   "ci_lo": 0.0005,
+   "ci_hi": 0.0076,
+   "d_z": 0.0709,
+   "p_holm": 0.3202
+  }
+ ],
+ "ddS_all": [
+  {
+   "variant": "main",
+   "model": "gpt2-hindi",
+   "ddS_bits": 0.184,
+   "ci_lo": 0.124,
+   "ci_hi": 0.24
+  },
+  {
+   "variant": "main",
+   "model": "mGPT",
+   "ddS_bits": 0.128,
+   "ci_lo": 0.084,
+   "ci_hi": 0.168
+  },
+  {
+   "variant": "main",
+   "model": "xglm-564M",
+   "ddS_bits": 0.23,
+   "ci_lo": 0.158,
+   "ci_hi": 0.302
+  },
+  {
+   "variant": "main",
+   "model": "sarvam-1",
+   "ddS_bits": 0.405,
+   "ci_lo": 0.243,
+   "ci_hi": 0.574
+  },
+  {
+   "variant": "raw",
+   "model": "gpt2-hindi",
+   "ddS_bits": 0.243,
+   "ci_lo": 0.183,
+   "ci_hi": 0.297
+  },
+  {
+   "variant": "raw",
+   "model": "mGPT",
+   "ddS_bits": 0.248,
+   "ci_lo": 0.201,
+   "ci_hi": 0.294
+  },
+  {
+   "variant": "raw",
+   "model": "xglm-564M",
+   "ddS_bits": 0.27,
+   "ci_lo": 0.197,
+   "ci_hi": 0.342
+  },
+  {
+   "variant": "raw",
+   "model": "sarvam-1",
+   "ddS_bits": 0.425,
+   "ci_lo": 0.266,
+   "ci_hi": 0.594
+  }
+ ]
+}
