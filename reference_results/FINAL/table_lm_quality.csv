@@ -1,0 +1,32 @@
+corpus,model,bits_per_akshara,tokens_per_word,n_words,meco_gaze_dll_x1000,meco_ci_lo,meco_ci_hi,tokenizer
+xlsum-hindi-article,bloom-560m,2.7650506567838304,1.2149378751919586,35815,,,,learned subwords
+xlsum-hindi-gold,bloom-560m,2.5914652625754906,1.2238063530609846,25531,,,,learned subwords
+xlsum-hindi-article,gpt2-hindi,2.8794768069264594,3.2228395923495743,35815,,,,rule (cuts vowel signs)
+xlsum-hindi-gold,gpt2-hindi,2.62158934661891,3.316948023970859,25531,,,,rule (cuts vowel signs)
+xlsum-hindi-article,mGPT,2.7006964587283333,3.4015915119363394,35815,,,,rule (cuts vowel signs)
+xlsum-hindi-gold,mGPT,2.5431989439960994,3.5045239121068503,25531,,,,rule (cuts vowel signs)
+xlsum-hindi-article,sarvam-1,2.462238145453953,1.2602540834845735,35815,,,,learned subwords
+xlsum-hindi-gold,sarvam-1,2.280508544043413,1.2757432141318397,25531,,,,learned subwords
+xlsum-hindi-article,xglm-564M,2.714217012938774,1.4060030713388245,35815,,,,learned subwords
+xlsum-hindi-gold,xglm-564M,2.4985817746174273,1.4209784183933258,25531,,,,learned subwords
+xlsum-bengali-article,bloom-560m,2.71922730189335,1.3895784725462748,32145,,,,learned subwords
+xlsum-bengali-gold,bloom-560m,2.611879515152075,1.4045309013291938,20614,,,,learned subwords
+xlsum-bengali-article,gpt2-bengali,2.28134519095974,4.540706175143879,32145,,,,rule (cuts vowel signs)
+xlsum-bengali-gold,gpt2-bengali,2.1332652015116063,4.728291452410983,20614,,,,rule (cuts vowel signs)
+xlsum-bengali-article,mGPT,2.6673709350285986,4.8016176699331155,32145,,,,rule (cuts vowel signs)
+xlsum-bengali-gold,mGPT,2.563742566238673,4.97952847579315,20614,,,,rule (cuts vowel signs)
+xlsum-bengali-article,sarvam-1,2.4511074883489106,1.7165966713330223,32145,,,,learned subwords
+xlsum-bengali-gold,sarvam-1,2.285002900277938,1.763898321529058,20614,,,,learned subwords
+xlsum-bengali-article,xglm-564M,2.7856145481512584,1.923440659511588,32145,,,,learned subwords
+xlsum-bengali-gold,xglm-564M,2.6661749097885745,1.9671097312506063,20614,,,,learned subwords
+xlsum-marathi-article,bloom-560m,3.7806207182870404,1.5426154202055586,30259,,,,learned subwords
+xlsum-marathi-gold,bloom-560m,3.695768878939744,1.552460413582739,22293,,,,learned subwords
+xlsum-marathi-article,mGPT,2.942196692895726,5.250669222380118,30259,,,,rule (cuts vowel signs)
+xlsum-marathi-gold,mGPT,2.803772424657312,5.333961333153905,22293,,,,rule (cuts vowel signs)
+xlsum-marathi-article,sarvam-1,2.485669792683093,1.7102349714134637,30259,,,,learned subwords
+xlsum-marathi-gold,sarvam-1,2.2961127301205817,1.7261920782308349,22293,,,,learned subwords
+meco-hindi,gpt2-hindi,4.00766762168627,3.323345259391771,2236,19.146533033523347,8.029333313264475,30.67098707100329,rule (cuts vowel signs)
+meco-hindi,mGPT,3.533705681670864,3.479874776386404,2236,18.066180192368964,3.07024299368483,32.69948496375816,rule (cuts vowel signs)
+meco-hindi,bloom-560m,2.517123691811708,1.1949910554561718,2236,93.50741570333976,67.5695268490491,127.77544554111483,learned subwords
+meco-hindi,xglm-564M,2.548612373402399,1.3971377459749552,2236,97.03930230723384,61.3683705559597,141.03324251038208,learned subwords
+meco-hindi,sarvam-1,1.9276876882925733,1.2222719141323792,2236,52.75649295783567,37.94673198769554,68.33610321818898,learned subwords

@@ -1,0 +1,22 @@
+label,repo,status,vocab,model,rule_cuts_marks,causal_lm,pre_tokenizer,normalizer
+gpt2 (English),openai-community/gpt2,ok,50257,BPE,True,True,"ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=True)",None
+gpt2-hindi,surajp/gpt2-hindi,ok,50258,BPE,True,True,"ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=True)",None
+gpt2-bengali,flax-community/gpt2-bengali,ok,50256,BPE,True,True,"ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=True)",None
+mGPT,ai-forever/mGPT,ok,100000,BPE,True,True,"ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=True)",None
+BLOOM,bigscience/bloom-560m,ok,250680,BPE,False,True,"Sequence(pretokenizers=[Split(pattern=Regex("" ?[^(\s|[.,!?…。，、।۔،])]+""), behavior=Isolated, invert=False), ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=False)])",None
+XGLM,facebook/xglm-564M,ok,256008,Unigram,False,True,"Metaspace(replacement=""▁"", prepend_scheme=always, split=True)","Sequence(normalizers=[Precompiled(precompiled_charsmap=""ALQCAACEAAAAAACAAQAAgMz8AgC4BQAAhyIAgMzkAgC4PQAAeyIAgMzsAgC4BQAAiyIAgMw8AADNvAAAmwkAgJ4JAIChCQCAgx0A...""), Replace(pattern=Regex("" {2,}""), conte"
+mT5,google/mt5-small,ok,250100,Unigram,False,False,"Sequence(pretokenizers=[WhitespaceSplit(), Metaspace(replacement=""▁"", prepend_scheme=always, split=True)])","Precompiled(precompiled_charsmap=""ALQCAACEAAAAAACAAQAAgMz8AgC4BQAAhyIAgMzkAgC4PQAAeyIAgMzsAgC4BQAAiyIAgMw8AADNvAAAmwkAgJ4JAIChCQCAgx0A..."")"
+XLM-R,FacebookAI/xlm-roberta-base,ok,250002,Unigram,False,False,"Sequence(pretokenizers=[WhitespaceSplit(), Metaspace(replacement=""▁"", prepend_scheme=always, split=True)])","Precompiled(precompiled_charsmap=""ALQCAACEAAAAAACAAQAAgMz8AgC4BQAAhyIAgMzkAgC4PQAAeyIAgMzsAgC4BQAAiyIAgMw8AADNvAAAmwkAgJ4JAIChCQCAgx0A..."")"
+MuRIL,google/muril-base-cased,ok,197258,WordPiece,False,False,BertPreTokenizer(),"BertNormalizer(clean_text=True, handle_chinese_chars=True, strip_accents=False, lowercase=False)"
+IndicBERT-v2,ai4bharat/IndicBERTv2-MLM-only,ok,250000,WordPiece,False,False,Whitespace(),None
+Pythia (GPT-NeoX),EleutherAI/pythia-160m,ok,50277,BPE,True,True,"ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=True)",NFC()
+Phi-3,microsoft/Phi-3-mini-4k-instruct,ok,32011,BPE,False,True,None,"Sequence(normalizers=[Prepend(prepend=""▁""), Replace(pattern=String("" ""), content=""▁"")])"
+Qwen2.5,Qwen/Qwen2.5-0.5B,ok,151665,BPE,True,True,"Sequence(pretokenizers=[Split(pattern=Regex(""(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}| ?[^\s\p{L}\p{N}]+[\r\n]*|\s*[\r\n]+|\s+...""), behavior=Isolated, invert=False), ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=False)])",NFC()
+Qwen3,Qwen/Qwen3-0.6B,ok,151669,BPE,True,True,"Sequence(pretokenizers=[Split(pattern=Regex(""(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}| ?[^\s\p{L}\p{N}]+[\r\n]*|\s*[\r\n]+|\s+...""), behavior=Isolated, invert=False), ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=False)])",NFC()
+gpt-oss (o200k),openai/gpt-oss-20b,ok,200019,BPE,False,True,"Sequence(pretokenizers=[Split(pattern=Regex(""[^\r\n\p{L}\p{N}]?[\p{Lu}\p{Lt}\p{Lm}\p{Lo}\p{M}]*[\p{Ll}\p{Lm}\p{Lo}\p{M}]+(?i:'s|'t|'re|'ve|'m|'ll...""), behavior=Isolated, invert=False), ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=False)])",None
+Sarvam-1,sarvamai/sarvam-1,ok,68096,BPE,False,True,"Metaspace(replacement=""▁"", prepend_scheme=first, split=False)",None
+OpenHathi,sarvamai/OpenHathi-7B-Hi-v0.1-Base,ok,48064,BPE,False,True,"Metaspace(replacement=""▁"", prepend_scheme=first, split=False)",None
+Llama-3.2,meta-llama/Llama-3.2-1B,ok,128256,BPE,True,True,"Sequence(pretokenizers=[Split(pattern=Regex(""(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}{1,3}| ?[^\s\p{L}\p{N}]+[\r\n]*|\s*[\r\n]...""), behavior=Isolated, invert=False), ByteLevel(add_prefix_space=False, trim_offsets=True, use_regex=False)])",None
+Gemma-2,google/gemma-2-2b,ok,256000,BPE,False,True,"Split(pattern=String("" ""), behavior=MergedWithPrevious, invert=False)","Replace(pattern=String("" ""), content=""▁"")"
+Gemma-3,google/gemma-3-1b-pt,ok,262145,BPE,False,True,"Split(pattern=String("" ""), behavior=MergedWithPrevious, invert=False)","Replace(pattern=String("" ""), content=""▁"")"
+Mistral-7B,mistralai/Mistral-7B-v0.1,ok,32000,BPE,False,True,"Metaspace(replacement=""▁"", prepend_scheme=first, split=False)",None

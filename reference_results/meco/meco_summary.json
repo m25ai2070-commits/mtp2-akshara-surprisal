@@ -1,0 +1,112 @@
+{
+ "reliability": {
+  "gaze": {
+   "r": 0.84170789983234,
+   "n": 2260,
+   "samples": [
+    "hi_iiith",
+    "hi_iitk"
+   ]
+  },
+  "total": {
+   "r": 0.9090420356530994,
+   "n": 2260,
+   "samples": [
+    "hi_iiith",
+    "hi_iitk"
+   ]
+  },
+  "first_fix": {
+   "r": 0.4706460030657661,
+   "n": 2260,
+   "samples": [
+    "hi_iiith",
+    "hi_iitk"
+   ]
+  }
+ },
+ "evenness": {
+  "lr_word_vs_aks": {
+   "mean": -0.026992052955260366,
+   "pct": -2.663102309959231,
+   "ci_lo": -0.05753318517260378,
+   "ci_hi": 0.003927240177516823,
+   "p_wilcoxon": 0.11751534058387637,
+   "frac_readers_positive": 0.4594594594594595,
+   "n_readers": 111
+  },
+  "lr_char_vs_aks": {
+   "mean": -0.009552779429032005,
+   "pct": -0.9507296576062862,
+   "ci_lo": -0.014973997797257116,
+   "ci_hi": -0.004273271052110457,
+   "p_wilcoxon": 0.001609858342522861,
+   "frac_readers_positive": 0.38738738738738737,
+   "n_readers": 111
+  },
+  "lr_tok_gpt2-hindi_vs_aks": {
+   "mean": 0.1788501120315043,
+   "pct": 19.58414884827324,
+   "ci_lo": 0.1677950076518993,
+   "ci_hi": 0.1895083208882992,
+   "p_wilcoxon": 5.986277507064418e-20,
+   "frac_readers_positive": 1.0,
+   "n_readers": 111
+  },
+  "lr_tok_mGPT_vs_aks": {
+   "mean": 0.14831486592780063,
+   "pct": 15.987804495029167,
+   "ci_lo": 0.13797451869141228,
+   "ci_hi": 0.15853500851626712,
+   "p_wilcoxon": 6.32110012692935e-20,
+   "frac_readers_positive": 0.990990990990991,
+   "n_readers": 111
+  },
+  "lr_tok_bloom-560m_vs_aks": {
+   "mean": -0.06445336564329586,
+   "pct": -6.242016332489941,
+   "ci_lo": -0.08500267802577231,
+   "ci_hi": -0.04344713355437941,
+   "p_wilcoxon": 1.7370999482609108e-07,
+   "frac_readers_positive": 0.32432432432432434,
+   "n_readers": 111
+  },
+  "lr_tok_xglm-564M_vs_aks": {
+   "mean": -0.028053112891527385,
+   "pct": -2.7663278185082074,
+   "ci_lo": -0.0426464823041246,
+   "ci_hi": -0.013352180089595706,
+   "p_wilcoxon": 0.00035041614509910454,
+   "frac_readers_positive": 0.35135135135135137,
+   "n_readers": 111
+  },
+  "lr_tok_sarvam-1_vs_aks": {
+   "mean": -0.0542154628693385,
+   "pct": -5.277200794803982,
+   "ci_lo": -0.07465108347301092,
+   "ci_hi": -0.03391881589468256,
+   "p_wilcoxon": 4.310352211230071e-06,
+   "frac_readers_positive": 0.34234234234234234,
+   "n_readers": 111
+  }
+ },
+ "n_readers": 111,
+ "n_passages": 12,
+ "n_words": 2236,
+ "measures": [
+  "gaze_ms",
+  "total_ms",
+  "first_fix_ms"
+ ],
+ "models": [
+  "gpt2-hindi",
+  "mGPT",
+  "bloom-560m",
+  "xglm-564M",
+  "sarvam-1"
+ ],
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.16.1"
+ }
+}
