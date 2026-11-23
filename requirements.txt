@@ -1,0 +1,19 @@
+# Versions of the reference run (Kaggle, 2026-11-20): python 3.13.16, torch 2.11.0+cu130, 2x Tesla T4.
+# The three pins below are the ones the results depend on. The other packages came from the Kaggle image and were
+# not recorded for the reference run; run_all.py now writes the exact versions of every package to
+# <results>/environment.json, so later runs are fully recorded.
+transformers==5.16.1
+datasets==2.21.0
+torch==2.11.0          # install the CUDA build that matches your driver (Kaggle: preinstalled)
+pandas>=2.2,<3         # the MECO code uses groupby.apply behaviour that pandas 3 changes
+numpy
+scipy
+matplotlib
+accelerate
+sentencepiece
+protobuf
+huggingface_hub
+requests
+tqdm
+pyreadr                # reads the MECO .rda files
+uharfbuzz              # visual word width (MECO control)
