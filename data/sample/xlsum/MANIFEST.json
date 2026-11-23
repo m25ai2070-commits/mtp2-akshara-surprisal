@@ -1,0 +1,16 @@
+{
+ "_mode": "sample",
+ "hindi/test": {
+  "rows": 8847,
+  "rows_in_split": 8847,
+  "md5": "f8a0774880968252e7ed92259e82205e",
+  "file": "data/sample/xlsum/hindi/test.jsonl.gz"
+ },
+ "hindi/train": {
+  "rows": 3000,
+  "rows_in_split": 70778,
+  "md5": "1e2549f3601409b78a4ee447a1b25e2d",
+  "file": "data/sample/xlsum/hindi/train.jsonl.gz"
+ },
+ "_dataset_commit": "30fece425f9a3866e04321773ca7a80056d55ca6"
+}
