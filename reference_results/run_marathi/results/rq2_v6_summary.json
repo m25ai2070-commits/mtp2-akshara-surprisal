@@ -1,0 +1,147 @@
+{
+ "bow_ok_share": {
+  "bloom-560m": 0.9872,
+  "mGPT": 0.9217,
+  "sarvam-1": 0.9873
+ },
+ "key_metrics_gold": [
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_tok_vs_aks",
+   "mean": -0.1026,
+   "ci_lo": -0.1134,
+   "ci_hi": -0.0915,
+   "d_z": -0.5807,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0316,
+   "ci_lo": 0.0234,
+   "ci_hi": 0.0394,
+   "d_z": 0.2368,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.014,
+   "ci_lo": 0.0105,
+   "ci_hi": 0.0174,
+   "d_z": 0.2496,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "bloom-560m",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.0194,
+   "ci_lo": 0.0157,
+   "ci_hi": 0.0231,
+   "d_z": 0.3204,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_tok_vs_aks",
+   "mean": 0.082,
+   "ci_lo": 0.0713,
+   "ci_hi": 0.0926,
+   "d_z": 0.4718,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0476,
+   "ci_lo": 0.0395,
+   "ci_hi": 0.0553,
+   "d_z": 0.3754,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0435,
+   "ci_lo": 0.04,
+   "ci_hi": 0.0469,
+   "d_z": 0.7664,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "mGPT",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.0271,
+   "ci_lo": 0.0232,
+   "ci_hi": 0.0311,
+   "d_z": 0.426,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_tok_vs_aks",
+   "mean": -0.0407,
+   "ci_lo": -0.0501,
+   "ci_hi": -0.0315,
+   "d_z": -0.2768,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_char_vs_aks",
+   "mean": 0.0299,
+   "ci_lo": 0.0228,
+   "ci_hi": 0.0369,
+   "d_z": 0.2585,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_grain_random_excess",
+   "mean": 0.0118,
+   "ci_lo": 0.0086,
+   "ci_hi": 0.0149,
+   "d_z": 0.231,
+   "p_holm": 0.0
+  },
+  {
+   "scorer": "sarvam-1",
+   "metric": "logratio_grain_randcut_shufexcess",
+   "mean": 0.0168,
+   "ci_lo": 0.0132,
+   "ci_hi": 0.0203,
+   "d_z": 0.3009,
+   "p_holm": 0.0
+  }
+ ],
+ "ddS_all": [
+  {
+   "variant": "main",
+   "model": "mGPT",
+   "ddS_bits": -0.461,
+   "ci_lo": -0.658,
+   "ci_hi": -0.258
+  },
+  {
+   "variant": "main",
+   "model": "sarvam-1",
+   "ddS_bits": -1.186,
+   "ci_lo": -1.343,
+   "ci_hi": -1.042
+  },
+  {
+   "variant": "raw",
+   "model": "mGPT",
+   "ddS_bits": 0.144,
+   "ci_lo": -0.062,
+   "ci_hi": 0.347
+  },
+  {
+   "variant": "raw",
+   "model": "sarvam-1",
+   "ddS_bits": -1.177,
+   "ci_lo": -1.331,
+   "ci_hi": -1.028
+  }
+ ]
+}

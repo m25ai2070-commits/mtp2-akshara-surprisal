@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-20T15:59:28.461526",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.16.1",
+  "datasets": "2.21.0",
+  "config": {
+    "DATASET": "csebuetnlp/xlsum",
+    "DATASET_CFG": "marathi",
+    "SPLIT": "test",
+    "NUM_SAMPLES": 1000,
+    "SEED": 42,
+    "RUN_GENERATION": false,
+    "RQ2_MIN_WORDS": 5,
+    "N_PERM_GRAIN": 100,
+    "SCORING_MODELS": [
+      "ai-forever/mGPT",
+      "bigscience/bloom-560m",
+      "sarvamai/sarvam-1"
+    ],
+    "MODEL_REVISIONS": {
+      "ai-forever/mGPT": "40897bd7c8b47a76802c411108ca6220438b8b40",
+      "bigscience/bloom-560m": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971"
+    },
+    "USE_ARTICLE_SOURCE": true,
+    "ARTICLE_MIN_WORDS": 25,
+    "ARTICLE_MAX_WORDS": 60,
+    "SCORE_GOLD_WITH_CONTEXT": false,
+    "CONTEXT_MAX_WORDS": 300,
+    "FREQ_SPLIT": "train",
+    "GENERATOR_MODEL": "csebuetnlp/mT5_multilingual_XLSum",
+    "NUM_BEAMS": 4,
+    "MAX_NEW_TOKENS": 84,
+    "MIN_NEW_TOKENS": 12,
+    "NO_REPEAT_NGRAM": 2,
+    "N_BOOTSTRAP": 5000,
+    "BOW_CORRECT": true,
+    "KEEP_RAW_VARIANT": true,
+    "N_SHUFFLE_NULL": 100,
+    "CHECKPOINT_EVERY": 100,
+    "CODE_VERSION": "mtp-9",
+    "REF_SCORER": "bloom-560m",
+    "FUNC_TOPK": 100,
+    "RUN_AUDIT": false
+  },
+  "n_rows_per_text": 18000,
+  "n_rows_per_word": 478968,
+  "scorer_revisions": {
+    "ai-forever/mGPT": "40897bd7c8b47a76802c411108ca6220438b8b40",
+    "bigscience/bloom-560m": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+    "sarvamai/sarvam-1": "e9607337286ddf496d4a2562b194e489dcf3feea"
+  },
+  "freq_control": true
+}
